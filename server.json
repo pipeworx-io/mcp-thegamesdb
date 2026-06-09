@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/thegamesdb",
+  "title": "Thegamesdb",
+  "description": "TheGamesDB MCP — wraps TheGamesDB API (thegamesdb.net), a community",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/thegamesdb",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-thegamesdb",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/thegamesdb/mcp"
+    }
+  ]
+}
