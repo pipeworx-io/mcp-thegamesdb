@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/thegamesdb",
   "title": "Thegamesdb",
   "description": "TheGamesDB MCP — wraps TheGamesDB API (thegamesdb.net), a community",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/thegamesdb",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-thegamesdb",
