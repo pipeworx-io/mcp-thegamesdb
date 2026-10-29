@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-thegamesdb",
-  "version": "0.1.2",
-  "description": "TheGamesDB MCP — wraps TheGamesDB API (thegamesdb.net), a community",
+  "version": "0.2.0",
+  "description": "TheGamesDB MCP — wraps TheGamesDB API (thegamesdb.net), a community video-game metadata database (titles, platforms, genres, release dates, artwork/boxart).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-thegamesdb": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "thegamesdb"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-thegamesdb.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/thegamesdb",
   "pipeworx": {
-    "sourceHash": "v1-c53674629d5af2928317063df0924ba153378f93879cd561ae0b17bc1bb6153d",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "mode": "gateway",
+    "slug": "thegamesdb",
+    "gatewaySlug": "thegamesdb",
+    "sourceHash": "v1-6b365ae15fb898fb2c98554a2a3a0394025b15d884021ea0ec538a9e321f6527",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
