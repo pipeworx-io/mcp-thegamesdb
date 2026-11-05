@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-thegamesdb",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "TheGamesDB MCP — wraps TheGamesDB API (thegamesdb.net), a community video-game metadata database (titles, platforms, genres, release dates, artwork/boxart).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "thegamesdb",
     "gatewaySlug": "thegamesdb",
-    "sourceHash": "v1-6b365ae15fb898fb2c98554a2a3a0394025b15d884021ea0ec538a9e321f6527",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-eb6567a4f61ec51cf91b64588c9eac97fc31223a0a76a19890d8d28afc7ea17c",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
