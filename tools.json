@@ -1,6 +1,6 @@
 [
   {
-    "name": "search_games",
+    "name": "thegamesdb_search_games",
     "description": "Search the TheGamesDB video-game database by title. Returns matching games with platform name, release date, players, rating, and a short overview. Example: search_games({ name: \"zelda\", limit: 10 })",
     "inputSchema": {
       "type": "object",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "name": "get_game",
+    "name": "thegamesdb_get_game",
     "description": "Get full metadata for a single game by its TheGamesDB id, including the front boxart image URL. Example: get_game({ id: 108139 })",
     "inputSchema": {
       "type": "object",
@@ -47,7 +47,7 @@
     }
   },
   {
-    "name": "list_platforms",
+    "name": "thegamesdb_list_platforms",
     "description": "List all gaming platforms known to TheGamesDB (id, name, alias). Useful for resolving platform ids. Example: list_platforms({})",
     "inputSchema": {
       "type": "object",
@@ -61,7 +61,7 @@
     }
   },
   {
-    "name": "list_genres",
+    "name": "thegamesdb_list_genres",
     "description": "List all game genres known to TheGamesDB (id, name). Useful for resolving genre ids. Example: list_genres({})",
     "inputSchema": {
       "type": "object",

@@ -1,17 +1,17 @@
 # mcp-thegamesdb
 
-TheGamesDB MCP — wraps TheGamesDB API (thegamesdb.net), a community video-game metadata database (titles, platforms, genres, release dates, artwork/boxart).
+Unofficial TheGamesDB MCP — wraps TheGamesDB API (thegamesdb.net), a community video-game metadata database (titles, platforms, genres, release dates, artwork/boxart).
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2007+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `search_games` | Search the TheGamesDB video-game database by title. Returns matching games with platform name, release date, players, rating, and a short overview. Example: search_games({ name: "zelda", limit: 10 }) |
-| `get_game` | Get full metadata for a single game by its TheGamesDB id, including the front boxart image URL. Example: get_game({ id: 108139 }) |
-| `list_platforms` | List all gaming platforms known to TheGamesDB (id, name, alias). Useful for resolving platform ids. Example: list_platforms({}) |
-| `list_genres` | List all game genres known to TheGamesDB (id, name). Useful for resolving genre ids. Example: list_genres({}) |
+| `thegamesdb_search_games` | Search the TheGamesDB video-game database by title. Returns matching games with platform name, release date, players, rating, and a short overview. Example: search_games({ name: "zelda", limit: 10 }) |
+| `thegamesdb_get_game` | Get full metadata for a single game by its TheGamesDB id, including the front boxart image URL. Example: get_game({ id: 108139 }) |
+| `thegamesdb_list_platforms` | List all gaming platforms known to TheGamesDB (id, name, alias). Useful for resolving platform ids. Example: list_platforms({}) |
+| `thegamesdb_list_genres` | List all game genres known to TheGamesDB (id, name). Useful for resolving genre ids. Example: list_genres({}) |
 
 ## Quick Start
 
@@ -57,7 +57,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1866+ data sources. The
+Both URLs reach the same gateway and the same 2007+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
